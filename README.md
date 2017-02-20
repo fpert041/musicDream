@@ -22,3 +22,7 @@ Basic Unreal Engine 4 environment using Blueprint plug-in "Leap Motion" to rende
 This project is a work in progress distributed under a GNU open-source licence with no guarantee it will work and won't screw up your system.
 Play around with it if you want, and if you use it or get inspired by it, please reference it :)
 Copyright - Francesco Perticarari 2017
+
+###Note:
+This project uses git LFS to handle uassets and other large files 
+[Previous version](Previous version: http://gitlab.doc.gold.ac.uk/fpert041/unreal_win_leap/tree/master) 
