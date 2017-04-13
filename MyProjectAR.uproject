@@ -18,6 +18,10 @@
 		{
 			"Name": "MIDIDevice",
 			"Enabled": true
+		},
+		{
+			"Name": "GoogleVRHMD",
+			"Enabled": true
 		}
 	]
 }
