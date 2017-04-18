@@ -2,7 +2,7 @@
 	"TargetName" : "MyProjectAREditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "",
+	"BuildId" : "5efd8da7-e95d-453a-bde1-96c976c3d602",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -16,27 +16,27 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Plugins/ARToolkitPlugin/Binaries/Win64/UE4Editor-ARToolkitPlugin.dll",
+			"Path" : "$(ProjectDir)/Plugins/ARToolkitPlugin/Binaries/Win64/UE4Editor-ARToolkitPlugin-2881.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Plugins/ARToolkitPlugin/Binaries/Win64/UE4Editor-ARToolkitPlugin.pdb",
+			"Path" : "$(ProjectDir)/Plugins/ARToolkitPlugin/Binaries/Win64/UE4Editor-ARToolkitPlugin-2881.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Plugins/ARToolkitPlugin/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ARToolkitPlugin.lib",
+			"Path" : "$(ProjectDir)/Plugins/ARToolkitPlugin/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ARToolkitPlugin-2881.lib",
 			"Type" : "ImportLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MyProjectAR.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MyProjectAR-5044.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MyProjectAR.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-MyProjectAR-5044.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-MyProjectAR.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-MyProjectAR-5044.lib",
 			"Type" : "ImportLibrary"
 		}
 	],
@@ -172,6 +172,14 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/LeapMotion/LeapMotion.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin",
 			"Type" : "UFS"
 		},
 		{

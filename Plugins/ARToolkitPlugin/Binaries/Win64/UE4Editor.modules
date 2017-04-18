@@ -1,9 +1,9 @@
 {
 	"Changelist" : 3249277,
 	"CompatibleChangelist" : 3195953,
-	"BuildId" : "",
+	"BuildId" : "5efd8da7-e95d-453a-bde1-96c976c3d602",
 	"Modules" : 
 	{
-		"ARToolkitPlugin" : "UE4Editor-ARToolkitPlugin.dll"
+		"ARToolkitPlugin" : "UE4Editor-ARToolkitPlugin-2881.dll"
 	}
 }
