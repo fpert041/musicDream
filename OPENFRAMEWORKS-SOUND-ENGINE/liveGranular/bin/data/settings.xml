@@ -1,0 +1,11 @@
+<parameters>
+	<speed>1</speed>
+	<pitch>2.6</pitch>
+	<grainSize>0.127</grainSize>
+	<overlaps>2</overlaps>
+	<bSetPosition>1</bSetPosition>
+	<bRecLiveInput>1</bRecLiveInput>
+	<playHead>0</playHead>
+	<volume>0.5</volume>
+	<bMouseControl>0</bMouseControl>
+</parameters>

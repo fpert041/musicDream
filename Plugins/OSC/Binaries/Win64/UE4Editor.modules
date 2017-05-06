@@ -1,0 +1,9 @@
+{
+	"Changelist" : 3249277,
+	"CompatibleChangelist" : 3195953,
+	"BuildId" : "0adca94f-d0bc-40e4-8d1c-27598829d7b4",
+	"Modules" : 
+	{
+		"OSC" : "UE4Editor-OSC.dll"
+	}
+}

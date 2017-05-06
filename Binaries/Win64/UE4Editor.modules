@@ -1,9 +1,9 @@
 {
 	"Changelist" : 3249277,
 	"CompatibleChangelist" : 3195953,
-	"BuildId" : "5efd8da7-e95d-453a-bde1-96c976c3d602",
+	"BuildId" : "0adca94f-d0bc-40e4-8d1c-27598829d7b4",
 	"Modules" : 
 	{
-		"MyProjectAR" : "UE4Editor-MyProjectAR-9830.dll"
+		"MyProjectAR" : "UE4Editor-MyProjectAR.dll"
 	}
 }
