@@ -8,7 +8,7 @@
 //
 //
 //  Reworked by Pawel Dziadur and Francesco Perticarari (2017)
-//  for OpenFrameworks 9 compatibility (tested on Mac OS El Capitan).
+//  for OpenFrameworks 9 compatibility (tested on Mac OS El Capitan [xCode] AND Windows 10 [VS 2017 with VS2015 and 2010 toolchains - as well as all the C++ addons]).
 //  requires modified addons:
 //  ofxDspChainPawelFrancesco
 //  and ofxMaximLoopRecordHack

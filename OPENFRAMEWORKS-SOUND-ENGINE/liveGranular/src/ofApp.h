@@ -1,5 +1,16 @@
 #pragma once
 
+//define value for OSC/udp ports if not already defined
+
+#ifndef IN_PORT
+#define IN_PORT 7777
+#endif
+
+#ifndef OUT_PORT
+#define OUT_PORT 9999
+#endif
+
+
 #include "ofMain.h"
 #include "ofxOscParameterSync.h"
 #include "ofxGui.h"

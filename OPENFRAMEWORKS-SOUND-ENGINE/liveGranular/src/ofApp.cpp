@@ -1,5 +1,4 @@
 #include "ofApp.h"
-#include "maximilian.h"
 
 
 //--------------------------------------------------------------
@@ -41,7 +40,10 @@ void ofApp::setup(){
     
     gui.setup(parameters);
 	// by now needs to pass the gui parameter groups since the panel internally creates it's own group
-	sync.setup((ofParameterGroup&)gui.getParameter(),6667,"localhost",6666);
+	string host = "localhost";
+	//host = "192.168.1.5"; //external device test
+	int inPort = IN_PORT;
+	sync.setup((ofParameterGroup&)gui.getParameter(), inPort, host, OUT_PORT);
 	ofSetVerticalSync(true);
     
 //    beats.load("Eweline_010.wav");//load in your samples. Provide the full path to a wav file.
@@ -51,6 +53,7 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
 	sync.update();
+	
     updateGrainPlayerVariables();
     grainPlayer.updatePlayHead();
 }
@@ -74,6 +77,13 @@ void ofApp::draw(){
     
 	gui.draw();
     grainPlayer.draw();
+
+	string inPort = to_string(IN_PORT);
+	string outPort = to_string(OUT_PORT);
+
+	ofDrawBitmapString("listening to port: " + inPort, ofGetWidth() - 240., 50.);
+	ofDrawBitmapString("sending to port: " + outPort, ofGetWidth() - 240., 80.);
+
 }
 
 //--------------------------------------------------------------
@@ -161,12 +171,11 @@ void ofApp::audioIn(float * input, int bufferSize, int nChannels)
 }
 
 //--------------------------------------------------------------
-double sample;
+double sample = 0.;
 void ofApp::audioOut(float * output, int bufferSize, int nChannels)
 {
 
 	for (int i = 0; i < bufferSize; i++) { // This seems to activate/initialise the audio OUT on windows
-		sample = 0.;
 
 		lAudio[i] = output[i*nChannels] = sample;
 		rAudio[i] = output[i*nChannels + 1] = sample;
