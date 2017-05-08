@@ -1,4 +1,4 @@
-# Music Leap
+# Music Leap (r)
 ## by Francesco Perticarari (c) 2017
 
 ### An Augmented Reality prototype controller for music making
