@@ -19,5 +19,9 @@ The idea is to build an AR - GUI in Unreal that controls the granular synthesize
 
 
 
+-- Note: on my macBook, after installing the drivers of my external soundcard on the Windows partition I am using for this project, I can't use any other in/out sound device with the c++ audio engine of this project -- It's not a big problem for me beacuse I wanted to use this sound card anyway, and it may all be because I'm running Win on a bootcamp partition on a Mac, but you may need to check the console when you run the sound engine to check which ins/outs it is looking for.
+
+
+
 
 (cover image found here: https://ibb.co/jAbvkk)
