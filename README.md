@@ -4,7 +4,7 @@
 ### An Augmented Reality prototype controller for music making
 #### Powered by: MS Visual Stidio 2017, Unreal Engine 4, C++, OpenFrameworks, and OSC.
 
-![alt text](https://ibb.co/jAbvkk)
+!![Alt text](img/FRONTPAGE.PNG?raw=true "Optional Title")
 
 This Project Requires the ARToolkitPlugin and the UE4OSC Plugin : they should altready be inside the "Plugins" folder.
 If prompeted to recompile when openng the unreal project, you might need to do so --also, if there are errors whilst doing so, you might need to close the UE4 project, right click on its icon, select "generate visual studio project", then reopen the project and recompile.
