@@ -16,3 +16,8 @@ The UE4 project internal settings should include: enabling of the LeapMotion int
 Note: The OpenFrameworks Sound Engine is a live granular (re)synthesizer built in C++ using openframeworks. It contains 2 folders: the first is the app, the second one contains the custon addons required for the app. You will need to have openframeworks 0.9 for this to run. In openframeworks you need to place the app's foder inside "myApps" or on a directory of the same level. The addons are to be placed in the "addons" direcotry AND you will also need to make sure you have ofxOsc and ofxGui too in there.
 
 The idea is to build an AR - GUI in Unreal that controls the granular synthesizer using OSC.
+
+
+
+
+(cover image found here: https://ibb.co/jAbvkk)
